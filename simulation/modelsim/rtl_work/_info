@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Berkin\Desktop\314 project\GroupProject\simulation\modelsim
+vclockDivider
+!i10b 1
+!s100 @B3B4IM^X`RkzNaO:1f480
+IZfV_T9bdK?>?>gd<588Ta2
+V;MZ@ZIWna`17WA=BDL>iF2
+Z1 dC:\Users\Berkin\Desktop\314 project\GroupProject\simulation\modelsim
+Z2 w1626228163
+Z3 8C:/Users/Berkin/Desktop/314 project/GroupProject/clockDivider.v
+Z4 FC:/Users/Berkin/Desktop/314 project/GroupProject/clockDivider.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1626285576.300000
+Z7 !s107 C:/Users/Berkin/Desktop/314 project/GroupProject/clockDivider.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Berkin/Desktop/314 project/GroupProject|C:/Users/Berkin/Desktop/314 project/GroupProject/clockDivider.v|
+!s101 -O0
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work {+incdir+C:/Users/Berkin/Desktop/314 project/GroupProject} -O0
+nclock@divider
+vclockDivider_testbench
+!i10b 1
+!s100 FKC7G5bMD9Z:Fiio633i_3
+IR`DcFi4>cMC1S7Fa@7EEF3
+V_2gYn_G]aI`5d5Q:nU]2j1
+R1
+R2
+R3
+R4
+L0 27
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+R9
+R10
+nclock@divider_testbench

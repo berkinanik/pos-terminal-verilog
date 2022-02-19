@@ -1,0 +1,16 @@
+
+State Machine - |fpgaDriver|inputAmount
+Name inputAmount.0011 inputAmount.0010 inputAmount.0001 inputAmount.0000 inputAmount.0100 
+inputAmount.0000 0 0 0 0 0 
+inputAmount.0001 0 0 1 1 0 
+inputAmount.0010 0 1 0 1 0 
+inputAmount.0011 1 0 0 1 0 
+inputAmount.0100 0 0 0 1 1 
+
+State Machine - |fpgaDriver|inputDisplay3
+Name inputDisplay3.0011 inputDisplay3.0010 inputDisplay3.0001 inputDisplay3.1011 inputDisplay3.0100 
+inputDisplay3.0001 0 0 0 0 0 
+inputDisplay3.0010 0 1 1 0 0 
+inputDisplay3.0011 1 0 1 0 0 
+inputDisplay3.0100 0 0 1 0 1 
+inputDisplay3.1011 0 0 1 1 0 

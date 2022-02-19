@@ -1,0 +1,8 @@
+module fpgaDriver(clk, led0, led1, led2, led3, switch0, switch1, switch2, button0, button1, button2, button3);
+	input clk, switch0, switch1, switch2, button0, button1, button2, button3;
+	output led0, led1, led2, led3;
+	
+	always @(posedge clk) begin
+		
+	end
+endmodule

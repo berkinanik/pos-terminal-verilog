@@ -1,0 +1,4 @@
+module fpgaDriver(clock, led0, led1, led2, led3, switch0, switch1, switch2, button0, button1, button2, button3);
+	input clock, led0, led1, led2, led3;
+	output switch0, switch1, switch2, button0, button1, button2, button3;
+endmodule

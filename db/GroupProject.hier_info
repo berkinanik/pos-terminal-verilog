@@ -1,0 +1,37 @@
+|clockDivider
+clockIn => clockOut~reg0.CLK
+clockIn => counterValue[0].CLK
+clockIn => counterValue[1].CLK
+clockIn => counterValue[2].CLK
+clockIn => counterValue[3].CLK
+clockIn => counterValue[4].CLK
+clockIn => counterValue[5].CLK
+clockIn => counterValue[6].CLK
+clockIn => counterValue[7].CLK
+clockIn => counterValue[8].CLK
+clockIn => counterValue[9].CLK
+clockIn => counterValue[10].CLK
+clockIn => counterValue[11].CLK
+clockIn => counterValue[12].CLK
+clockIn => counterValue[13].CLK
+clockIn => counterValue[14].CLK
+clockIn => counterValue[15].CLK
+clockIn => counterValue[16].CLK
+clockIn => counterValue[17].CLK
+clockIn => counterValue[18].CLK
+clockIn => counterValue[19].CLK
+clockIn => counterValue[20].CLK
+clockIn => counterValue[21].CLK
+clockIn => counterValue[22].CLK
+clockIn => counterValue[23].CLK
+clockIn => counterValue[24].CLK
+clockIn => counterValue[25].CLK
+clockIn => counterValue[26].CLK
+clockIn => counterValue[27].CLK
+clockIn => counterValue[28].CLK
+clockIn => counterValue[29].CLK
+clockIn => counterValue[30].CLK
+clockIn => counterValue[31].CLK
+clockOut <= clockOut~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

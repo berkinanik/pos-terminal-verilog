@@ -1,0 +1,25 @@
+module clockDivider(clock_in,clock_out);
+	input clock_in; // 100 Mhz
+	output reg clock_out;
+	
+	parameter division_value = 1;
+	
+	// Output clock will be 
+	
+	integer counter_value = 0;
+	
+	always @(posedge clock_in) begin
+		if (counter_value == division_value)
+			counter_value <= 0;
+		else
+			counter_value <= counter_value+1;
+	end
+	
+	always @(posedge clock_in) begin
+		if (counter_value == division_value)
+			clock_out <= ~clock_out;
+		else
+			clock_out <= clock_out;
+	end
+
+endmodule
